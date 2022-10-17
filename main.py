@@ -16,6 +16,6 @@ cnum = len(numbers[0])
 # ******************************
 for i in range(len(rnum)):
     rsum = 0
-    for j in range(cnum)
-    rsum += numbers[i][j]
-    print(f"The summation of {i}: {rsum}")
+    for j in range(cnum):
+        rsum += numbers[i][j]
+        print(f"The summation of {i}: {rsum}")
